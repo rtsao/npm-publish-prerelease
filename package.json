@@ -1,0 +1,16 @@
+{
+  "name": "npm-publish-prerelease",
+  "version": "1.0.0",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "homepage": "https://github.com/rtsao/npm-publish-prerelease",
+  "repository": "git@github.com:rtsao/npm-publish-prerelease.git",
+  "bugs": "https://github.com/rtsao/npm-publish-prerelease/issues",
+  "bin": "./npm-publish-prerelease.js",
+  "dependencies": {
+    "semver": "^5.4.1"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "license": "MIT"
+}
