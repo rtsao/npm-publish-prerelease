@@ -24,4 +24,6 @@ const tagArgs = tag ? ['--tag', tag] : [];
 
 spawn('npm', ['publish', ...args, ...tagArgs], {
   stdio: 'inherit'
+}).on('exit', code => {
+  process.exitCode = code;
 });
