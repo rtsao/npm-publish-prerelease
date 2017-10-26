@@ -1,6 +1,6 @@
 {
   "name": "npm-publish-prerelease",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "homepage": "https://github.com/rtsao/npm-publish-prerelease",
   "repository": "git@github.com:rtsao/npm-publish-prerelease.git",
