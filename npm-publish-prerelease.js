@@ -23,7 +23,8 @@ const args = process.argv.slice(2);
 const tagArgs = tag ? ['--tag', tag] : [];
 
 spawn('npm', ['publish', ...args, ...tagArgs], {
-  stdio: 'inherit'
+  stdio: 'inherit',
+  cwd: process.cwd()
 }).on('exit', code => {
   process.exitCode = code;
 });
